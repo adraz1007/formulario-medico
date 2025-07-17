@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="../css/index.css" />
+</head>
+<body>
+  <form action="Prontuario.html" method="get">
+    <div class="Nome">
+      <label for="nome">Seu Nome</label>
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" />
+    </div>
+
+    <fieldset>
+      <legend>Doença</legend>
+      <div id="radios">
+        <div class="Opcoes">
+          <label for="doencaMental">Mental</label>
+          <input type="radio" id="doencaMental" name="doenca" value="mental" />
+        </div>
+        <div class="Opcoes">
+          <label for="doencaFisica">Física</label>
+          <input type="radio" id="doencaFisica" name="doenca" value="fisica" />
+        </div>
+        <div class="Opcoes">
+          <label for="doencaAmbos">Ambos</label>
+          <input type="radio" id="doencaAmbos" name="doenca" value="ambos" />
+        </div>
+      </div>
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
